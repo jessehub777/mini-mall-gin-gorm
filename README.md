@@ -93,9 +93,9 @@ export APP_API_PREFIX=/api
 export DB_HOST=127.0.0.1
 export DB_PORT=3306
 export DB_USER=root
-export DB_PASSWORD=123456
+export DB_PASSWORD=root
 export DB_NAME=mini_mall
-export JWT_SECRET=please-change-me
+export JWT_SECRET=ougeishin
 export JWT_EXPIRE_HOURS=24
 ```
 

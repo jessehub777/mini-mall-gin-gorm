@@ -41,7 +41,7 @@ func Load() *Config {
 	cfg.Database.Host = getEnv("DB_HOST", "127.0.0.1")
 	cfg.Database.Port = getEnv("DB_PORT", "3306")
 	cfg.Database.User = getEnv("DB_USER", "root")
-	cfg.Database.Password = getEnv("DB_PASSWORD", "123456")
+	cfg.Database.Password = getEnv("DB_PASSWORD", "root")
 	cfg.Database.Name = getEnv("DB_NAME", "mini_mall")
 	cfg.Database.Charset = getEnv("DB_CHARSET", "utf8mb4")
 	cfg.Database.ParseTime = getEnv("DB_PARSE_TIME", "True")
