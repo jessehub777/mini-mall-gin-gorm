@@ -1,1 +1,46 @@
-/.DS_Store
+# Go build artifacts
+bin/
+dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.a
+
+# Test and coverage artifacts
+*.test
+*.out
+coverage.out
+*.coverprofile
+*.prof
+
+# Logs
+*.log
+logs/
+
+# Environment files (keep examples)
+.env
+.env.*
+!.env.example
+!configs/.env.example
+
+# IDE/editor files
+.idea/
+*.iml
+.vscode/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+
+# Local temp files
+*.tmp
+*.swp
+
+# Project local outputs
+output.txt
+test_output.txt
